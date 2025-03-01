@@ -1,31 +1,15 @@
 <!DOCTYPE html>
-<html lang ="en">
+<html lang="en">
 <head>
-    <meta charset ="UTF-8">
-    <meta name ="viewport" content ="width=device-width, initial-scale = 1.0">
-    <title> DOM Manipulation - Show Date & Time </title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
-        }
-        #datetime {
-            font-size: 20px;
-            margin-top: 20px;
-            color: blue;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>External JavaScript Example</title>
 </head>
 <body>
-    <h2> Click the Button to Display Current Date & Time </h2>
-    <button onclick="showDateTime()">Show Date & Time </button>
+    <h2>Click the Button to Display Current Date & Time</h2>
+    <button onclick="showDateTime()">Show Date & Time</button>
     <p id="datetime"></p>
-    <script>
-        function showDateTime() {
-            let now = new Date();
-            document.getElementById("datetime").innerText = "Current Date & Time: " + now;
-        }
-    </script>
+
+    <script src="script.js"></script>
 </body>
 </html>
